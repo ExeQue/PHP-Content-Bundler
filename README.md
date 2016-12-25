@@ -36,5 +36,5 @@ Extend the class using the above syntax. The self::bundler function returns the 
 ```php
 <?php Bundle::CSS(array("Content/css/normalize.css", "Content/css/main.css")); ?>
 ```
-Call the bundling function you need, and pass an array containing the relative paths from the server root (127.0.0.1:8080/Project/**_Path/To/File_**)
+Call the bundling function you need, and pass an array containing the relative paths from the server root (127.0.0.1:8080/Project/**_Path/To/File_**).
 Files will be bundled in the order they are specified
