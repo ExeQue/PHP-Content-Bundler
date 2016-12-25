@@ -96,7 +96,7 @@ final class Bundle {
         $paths = array();
         foreach ($files as $file) {
             $file = str_replace("/", "\\", $file);
-            $path = self::getMin(ROOT . DIRECTORY_SEPARATOR . $file);
+            $path = self::getMin(self::$server_root . DIRECTORY_SEPARATOR . $file);
             $paths[ filemtime($path) ] = $path;
         }
 
