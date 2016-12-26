@@ -1,4 +1,4 @@
-# PHP-Resource-Bundler
+# PHP-Content-Bundler
 ### Helper class for bundling multiple files into one
 
 ## Setup
